@@ -1,0 +1,167 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background: #333;
+    padding: 10px;
+    padding-left: 25px;
+}
+nav {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 20px 0;
+    position: relative;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.nav-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+}
+section {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.section-content {
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.section-img {
+    width: 700px;
+    height: auto;
+    margin-right: 25px;
+}
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+}
+.social-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background: #ebebeb;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: 100% 100%;
+    overflow: hidden;
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    margin: 0 auto; /* Centers the carousel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+.carousel-item {
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.carousel-card {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 80%;
+}
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.controls button {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.res-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    text-align: center;
+}
+.res-section {
+    margin-bottom: 20px;
+}
+.res-contact a {
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+}
